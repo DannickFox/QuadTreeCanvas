@@ -12,10 +12,10 @@ ctx.lineWidth = 1;
 let points = [];
 
 // Constants.
-const N_points = 500;
+const N_points = 100;
 const max_rad = 10;
 const max_vel = 50;
-const qLimit = 1;
+const qLimit = 3;
 const delta = 1 / 50;
 
 for (let i = 0; i < N_points; i++) {
